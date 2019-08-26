@@ -18,14 +18,10 @@ import butterknife.ButterKnife;
 public class FriendsActivity extends AppCompatActivity {
     @BindView(R.id.locationTextView) TextView mLocationTextView;
     @BindView(R.id.listView) ListView mListView;
-    private String[] friends = new String[] {"Mi Mero Mole", "Mother's Bistro",
-            "Life of Pie", "Screen Door", "Luc Lac", "Sweet Basil",
-            "Slappy Cakes", "Equinox", "Miss Delta's", "Andina",
-            "Lardo", "Portland City Grill", "Fat Head's Brewery",
-            "Chipotle", "Subway"};
-    private String[] description = new String[] {"Vegan Food", "Breakfast", "Fishs Dishs",
-            "Scandinavian", "Coffee", "English Food", "Burgers", "Fast Food", "Noodle Soups",
-            "Mexican", "BBQ", "Cuban", "Bar Food", "Sports Bar", "Breakfast", "Mexican" };
+    private String[] friends = new String[] {"CHRIS MARTIN", "MATILDA DELOVE",
+            "RUCHI RISPER", "ANITA ANORLDS", "EMANUEL MANU", "TESS TESA"};
+    private String[] description = new String[] {"Engineer,28yrs,Tall dark and Handsome", "Student,20yrs,fun and loving", "Nurse,28yrs,Fun and outgoing",
+            "Writer,24yrs,new in the hood,looking for friends", "Coder, 30yrs,want to coders", "Fashionist,20yrs, looking for outgoing person" };
 
 
     @Override

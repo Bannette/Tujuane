@@ -17,9 +17,9 @@ public class MyFriendsArrayAdapter extends ArrayAdapter {
 
     @Override
     public Object getItem(int position){
-        String restaurant = mFriends[position];
-        String cuisine = mDescription[position];
-        return String.format("%s \n Serves great: %s", restaurant, cuisine);
+        String friend = mFriends[position];
+        String description = mDescription[position];
+        return String.format("%s \nServes great: %s", friend, description);
     }
 
     @Override
