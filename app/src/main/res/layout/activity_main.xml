@@ -21,7 +21,7 @@
         android:text="TUJUANE"
         android:textSize="60sp"
         android:textStyle="bold"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryLight"
         android:id="@+id/appNameTextView"/>
 
     <EditText
@@ -43,6 +43,6 @@
         android:layout_centerHorizontal="true"
         android:text="FIND NEXTDOOR FRIEND"
         android:textColor="@color/colorTextIcons"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/colorSecondaryText"/>
 
 </RelativeLayout>
