@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FriendsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moringaschool.tujuane.MainActivity">
+            </meta-data>
+        </activity>
     </application>
 
 </manifest>
