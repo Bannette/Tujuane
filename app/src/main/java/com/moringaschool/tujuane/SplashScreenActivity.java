@@ -3,16 +3,14 @@ package com.moringaschool.tujuane;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
 
-import android.os.Bundle;
-
 public class SplashScreenActivity extends AppCompatActivity {
 
     private int SLEEP_TIMER = 3;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,19 +26,17 @@ public class SplashScreenActivity extends AppCompatActivity {
         logoLauncher.start();
     }
 
-    private class LogoLauncher extends Thread {
+    private class LogoLauncher extends Thread{
         public void run() {
-            try {
+            try{
                 sleep(1000 * SLEEP_TIMER);
-            } catch (InterruptedException e) {
+            } catch (InterruptedException e){
                 e.printStackTrace();
-
-
-                Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
-                startActivity(intent);
-                SplashScreenActivity.this.finish();
             }
+
+            Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
+            startActivity(intent);
+            SplashScreenActivity.this.finish();
         }
     }
 }
-
