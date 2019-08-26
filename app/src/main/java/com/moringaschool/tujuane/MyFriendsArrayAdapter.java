@@ -19,7 +19,7 @@ public class MyFriendsArrayAdapter extends ArrayAdapter {
     public Object getItem(int position){
         String friend = mFriends[position];
         String description = mDescription[position];
-        return String.format("%s \nServes great: %s", friend, description);
+        return String.format("%s \nDescription: %s", friend, description);
     }
 
     @Override

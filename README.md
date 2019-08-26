@@ -5,19 +5,19 @@
 # DESCRIPTION OF A PROJECT
 Tujuane is an Android application that allows users to meetup and chat on social media
 
-PROJECT SETUP INSTRUCTION
+# PROJECT SETUP INSTRUCTION
 Installed Android studio editor
 Installed git vasual control(for tracking my changes)
 
-java JDK - Java Development Kit To confirm run the following command $ gradle run
 
-TECHNOLOGIES USED
+
+# TECHNOLOGIES USED
 ANDROID
 
-CONTACT INFORMATION
+# CONTACT INFORMATION
 Contact me via: email banetaloo3@gmail.com Phone number; 0720293998
 
-LICENCE
+# LICENCE
 MIT License
 
 Copyright (c) 2019 Bannette Aloo
