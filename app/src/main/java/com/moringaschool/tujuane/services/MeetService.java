@@ -1,6 +1,7 @@
-package com.moringaschool.tujuane;
+package com.moringaschool.tujuane.services;
 
 
+import com.moringaschool.tujuane.Constants;
 import com.moringaschool.tujuane.models.Friend;
 
 import org.json.JSONArray;
